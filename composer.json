@@ -1,0 +1,22 @@
+{
+    "name": "barracuda/users",
+    "description": "Social Network Discount",
+    "type": "social",
+    "require": {
+        "symfony/var-dumper": "^3.3"
+    },
+    "authors": [
+        {
+            "name": "barracuda75",
+            "email": "wilsai.mede@hetic.net"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "app\\" : "app/"
+        },
+        "files": [
+            "config.php"
+        ]
+    }
+}
